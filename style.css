@@ -1,1 +1,262 @@
+body{
+    background-color: rgb(249, 249, 249);
+    margin: 0;
+}
+
+/* Header section */
+.header{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    top:0;
+    width:100%;
+    z-index:100;
+    height: 56px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Elements of header */
+
+/* menu icon */
+.menuIcon{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+/* youtube logo */
+.youtubeLogo{
+    margin-left: 0;
+    width: 80px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    padding-top: 15px;
+
+}
+
+/* country code */
+.pl{
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    vertical-align: 45px;
+}
+
+/* input section */
+.input{
+    padding-top: 10px;
+    white-space: nowrap;
+}
+
+.inputBar{
+    padding-left: 5px;
+    padding-top: 7px;
+    border: none;
+    outline: 0;
+    width: 550px;
+    vertical-align: 10px;
+}
+
+.keyboardIcon{
+    width: 24px;
+    height: 24px;
+}
+
+.border{
+    height: 30px;
+    width: 600px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 5px;
+    line-height: 0;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: 2px;
+}
+
+.buttonDiv{
+    display: inline-block;
+    height: 32px;
+    width: 65px;
+}
+
+
+.searchButton{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    height: 32px;
+    width: 65px;
+    float: left;
+}
+
+.searchIcon{
+    width: 20px;
+    height: 20px;
+    padding-top: 3px;
+}
+
+
+
+/* right side */
+
+.rightIcons{
+    padding-left: 330px;
+}
+
+.cameraIcon,
+.dialpadIcon,
+.dotsIcon,
+.bellIcon,
+.loginIcon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    padding: 15px 10px 10px 10px;
+    float: left;
+}
+
+.loginIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+/* End of header elements */
+
+/* Container section */
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    column-gap: 10px;
+    margin-top: 80px;
+}
+
+/* left section */
+
+.left{
+    margin-left: 240px;
+    margin-right: auto;
+    height: 2000px;
+}
+
+
+.video{
+    margin-right: 0;
+    width: 900px;
+    height: 506px;
+}
+
+/* right section */
+
+.right{
+    float: right;
+    padding-right: 255px;
+}
+
+/* next and autoplay */
+
+.next{
+    font-family: Roboto, Arial;
+    font-size: 17px;
+    margin: 0;
+    vertical-align: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+.autoplay{
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+    margin: 0;
+    display: inline-block;
+    vertical-align: 20px;
+}
+
+.toggleBar{
+    display: inline-block;
+    width: 36px;
+    height: 14px;
+    margin-left: 15px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+    vertical-align: 20px;
+}
+
+.toggleDot{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(30, 34, 253);
+    box-shadow: 0 0 5px black;
+    border-radius: 50%;
+    vertical-align: 20px;
+    transform: translate(-23px, 12%);
+}
+
+/* suggestions */
+
+.suggested{
+    display: grid;
+    grid-template-columns: 170px 200px;
+    margin-bottom: 9px;
+}
+
+
+.suggestedImg{
+    float: left;
+    grid-column: 1/2;
+}
+
+.suggestedText{
+    padding-left: 10px;
+}
+
+.suggestedTitle,
+.suggestedChannel,
+.suggestedViews,
+.suggestedDate{
+    grid-column: 2/3;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    display: inline-block;
+}
+
+.suggestedChannel,
+.suggestedViews,
+.suggestedDate{
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(114, 114, 114);
+    margin: 0;
+}
+
+/* line */
+
+.line{
+    margin-top: 16px;
+    margin-bottom: 18px;
+    width: 390px;
+    border-bottom: 1px solid rgba(202, 202, 202, 0.644);
+}
+
+
 
