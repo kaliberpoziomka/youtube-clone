@@ -6,7 +6,7 @@ body{
 /* Header section */
 .header{
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.99);
     top:0;
     width:100%;
     z-index:100;
@@ -235,7 +235,6 @@ body{
     height: 15px;
     padding: 5px 5px 5px 5px;
     float: left;
-    color: grey;
 }
 
 .thumbDownIcon{
@@ -267,7 +266,7 @@ body{
     margin-top: 5px;
     margin-bottom: 18px;
     width: 988px;
-    border-bottom: 1px solid rgba(202, 202, 202, 0.644);
+    border-bottom: 1px solid rgb(230, 230, 230);
     display: block;
 }
 
@@ -367,7 +366,7 @@ body{
     margin-top: 16px;
     margin-bottom: 18px;
     width: 390px;
-    border-bottom: 1px solid rgba(202, 202, 202, 0.644);
+    border-bottom: 1px solid rgb(230, 230, 230);
 }
 
 
