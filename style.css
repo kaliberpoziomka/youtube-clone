@@ -372,6 +372,15 @@ body{
     border-bottom: 1px solid rgb(230, 230, 230);
 }
 
+.link{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(112, 112, 112);
+    margin: 0;
+    display: inline;
+}
+
 
 
 
