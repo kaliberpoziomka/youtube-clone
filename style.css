@@ -208,7 +208,7 @@ body{
 }
 
 .underVideoRight{
-    width: 550px;
+    width: 600px;
     position: relative;
     float: right;
     display: inline-block;
@@ -264,8 +264,15 @@ body{
 }
 
 .textIconGroup{
+    width: 90px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.textIconGroup2{
     width: 120px;
     display: inline-block;
+    margin-right: 30px;
 }
 
 .dotsDiv{
