@@ -161,6 +161,116 @@ body{
     height: 506px;
 }
 
+/* under video */
+
+.underVideo{
+    width: 988px;
+    max-height: 130px;
+    padding-top: 60px;
+}
+
+.videoTitle{
+    font-size: 18px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    margin: 7px;
+    margin-left: 0;
+}
+
+.videoViews{
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    color: grey;
+    margin: 7px;
+    margin-left: 0;
+}
+
+.videoTitleDiv{
+    width: 380px;
+   display: block;
+}
+.videoViewsDiv{
+    width: 400px;
+    display: inline-block;
+}
+
+.underVideoRight{
+    width: 550px;
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+
+.smallTextOne,
+.smallTextTwo,
+.smallTextThree,
+.smallTextFour{
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: 20px;
+}
+
+
+.underVideoIcons{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    display: inline;
+    vertical-align: 20px;
+}
+
+.thumbUpIcon,
+.thumbDownIcon,
+.shareIcon,
+.downloadIcon{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+    color: grey;
+}
+
+.thumbDownIcon{
+    padding-top: 8px;
+}
+
+.dotsHorizontalIcon{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    padding: 21px 5px 5px 5px;
+    float: left;
+    transform: rotate(90deg);
+}
+
+.textIconGroup{
+    width: 120px;
+    display: inline-block;
+}
+
+.dotsDiv{
+    width: 30px;
+    display: inline-block;
+}
+
+
+
+.line1{
+    margin-top: 5px;
+    margin-bottom: 18px;
+    width: 988px;
+    border-bottom: 1px solid rgba(202, 202, 202, 0.644);
+    display: block;
+}
+
 /* right section */
 
 .right{
@@ -170,7 +280,7 @@ body{
 
 /* next and autoplay */
 
-.next{
+.sectionHeader{
     font-family: Roboto, Arial;
     font-size: 17px;
     margin: 0;
@@ -179,7 +289,7 @@ body{
     display: inline-block;
 }
 
-.autoplay{
+.smallText{
     font-family: Roboto, Arial;
     font-size: 13px;
     color: rgb(114, 114, 114);
@@ -221,6 +331,8 @@ body{
 .suggestedImg{
     float: left;
     grid-column: 1/2;
+    width: 168px;
+    height: 94px;
 }
 
 .suggestedText{
@@ -257,6 +369,7 @@ body{
     width: 390px;
     border-bottom: 1px solid rgba(202, 202, 202, 0.644);
 }
+
 
 
 
