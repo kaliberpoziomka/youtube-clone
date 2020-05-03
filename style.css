@@ -1,6 +1,4 @@
-html{
-    zoom: 0.8;
-}
+
 body{
     background-color: rgb(249, 249, 249);
     margin: 0;
@@ -14,14 +12,17 @@ body{
     width:100%;
     z-index:100;
     height: 56px;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
     padding: 0;
     margin: 0;
 }
 
 
 /* Elements of header */
+
+.leftIcons{
+    width: 300px;
+    display: inline-block;
+}
 
 /* menu icon */
 .menuIcon{
@@ -55,8 +56,12 @@ body{
 
 /* input section */
 .input{
-    padding-top: 10px;
+    margin-left: 10rem;
+    margin-top: 0.7em;
+    width: 700px;
+    display: inline-block;
     white-space: nowrap;
+    vertical-align: top;
 }
 
 .inputBar{
@@ -116,7 +121,9 @@ body{
 /* right side */
 
 .rightIcons{
-    padding-left: 330px;
+    width: 250px;
+    display: inline-block;
+    float: right;
 }
 
 .cameraIcon,
@@ -145,23 +152,21 @@ body{
     position: relative;
     display: grid;
     grid-template-columns: 65% 35%;
-    column-gap: 10px;
+    column-gap: 15px;
     margin-top: 80px;
+    height: 1500px;
 }
 
 /* left section */
 
 .left{
-    margin-left: 240px;
-    margin-right: auto;
-    height: 2000px;
+    position: relative;
+    float: right;
 }
 
 
 .video{
-    margin-right: 0;
-    width: 900px;
-    height: 506px;
+    float: right;
 }
 
 /* under video */
@@ -169,7 +174,8 @@ body{
 .underVideo{
     width: 988px;
     max-height: 130px;
-    padding-top: 60px;
+    padding-top: 20px;
+    float: right;
 }
 
 .videoTitle{
@@ -178,6 +184,7 @@ body{
     font-weight: 400;
     margin: 7px;
     margin-left: 0;
+    float: left;
 }
 
 .videoViews{
@@ -186,14 +193,17 @@ body{
     color: grey;
     margin: 7px;
     margin-left: 0;
+    float: left;
 }
 
 .videoTitleDiv{
-    width: 380px;
+    width: 980px;
+    height: 40px;
    display: block;
 }
+
 .videoViewsDiv{
-    width: 400px;
+    width: 250px;
     display: inline-block;
 }
 
@@ -271,13 +281,13 @@ body{
     width: 988px;
     border-bottom: 1px solid rgb(230, 230, 230);
     display: block;
+    float: right;
 }
 
 /* right section */
 
 .right{
-    float: right;
-    padding-right: 255px;
+    float: left;
 }
 
 /* next and autoplay */
@@ -376,9 +386,8 @@ body{
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    color: rgb(112, 112, 112);
+    color: rgb(218, 218, 218);
     margin: 0;
-    display: inline;
 }
 
 

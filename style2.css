@@ -1,8 +1,9 @@
 /* channel section */
 .channelSection{
-    width: 988;
+    width: 988px;
     height: 70px;
     margin-top: 10px;
+    float: right;
 }
 
 .channelSectionLeft{
@@ -35,15 +36,19 @@
     display: inline-block;
 }
 
+
 .channelViews{
     font-size: 12px;
     font-weight: 300;
     color: rgb(96, 96, 96);
 }
 
+/* subscibe section */
+
 .channelSubscribeGroup{
     padding-left: 100px;
 }
+
 
 .subscribeBtn{
     font-size: 14px;
@@ -108,6 +113,13 @@
     float: left;
 }
 
+/* add comment section */
+
+.addCommentSection{
+    float: right;
+    width: 988px;
+}
+
 .addCommentText{
     width: 935px;
     float: right;
@@ -131,6 +143,13 @@
     width: 930px;
     border-bottom: 1px solid rgb(230, 230, 230);
     display: inline-block;
+    float: right;
+}
+
+/* comments section */
+
+.commentWrap{
+    width: 988px;
     float: right;
 }
 
